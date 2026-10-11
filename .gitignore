@@ -1,0 +1,46 @@
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Local models and llama.cpp runtime binaries
+models/
+tools/
+*.gguf
+
+# Per-user data accidentally created in the project
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.sqlite3-*
+*.db
+*.log
+settings.json
+model_tuning.json
+huggingface_metadata.json
+
+# Temporary and editor files
+tmp/
+*.tmp
+*.bak
+# Leftover files from the removed executable build workflow
+build/
+dist/
+*.spec
+build_windows.ps1
+requirements-build.txt
+licenses/
+THIRD_PARTY_NOTICES.txt
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+.env
+.env.*
+!.env.example
